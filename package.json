@@ -1,0 +1,34 @@
+{
+    "name": "nodejs-daimiyun",
+    "version": "0.0.0",
+    "description": " Nodejs Daimiyun Payment Module",
+    "main": "index.js",
+    "repository": "https://github.com/CloudHammer/nodejs-daimiyun.git",
+    "author": "Indexyz <jiduye@gmail.com>",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "test": "jest",
+        "build": "babel src --out-dir lib --minified --ignore __tests__,__mocks__",
+        "lint": "eslint src test"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-eslint": "^8.1.2",
+        "babel-jest": "^22.0.4",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-register": "^6.26.0",
+        "eslint": "^4.14.0",
+        "eslint-config-babel": "^7.0.2",
+        "eslint-plugin-babel": "^4.1.2",
+        "eslint-plugin-flowtype": "^2.40.1",
+        "jest": "^22.0.4"
+    },
+    "dependencies": {
+        "http-build-query": "^0.2.2",
+        "node-fetch": "^1.7.3"
+    }
+}
